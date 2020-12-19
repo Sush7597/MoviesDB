@@ -12,7 +12,7 @@ export const searchMovie = text => dispatch => {
 }
 
 export const fetchMovies = text => dispatch => {
-    axios.get(`http://www.omdbapi.com/?s=${text}&apikey=${apiKey}`)
+    axios.get(`https://www.omdbapi.com/?s=${text}&apikey=${apiKey}`)
         .then(Response => dispatch({
             type : FETCH_MOVIES,
             payload : Response.data.Search
@@ -21,7 +21,7 @@ export const fetchMovies = text => dispatch => {
 }
 
 export const fetchMovie = id => dispatch => {
-    axios.get(`http://www.omdbapi.com/?i=${id}&apikey=${apiKey}`)
+    axios.get(`https://www.omdbapi.com/?i=${id}&apikey=${apiKey}`)
     .then(Response => dispatch({
         type : FETCH_MOVIE,
         payload : Response.data
