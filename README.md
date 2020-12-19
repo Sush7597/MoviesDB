@@ -10,7 +10,7 @@ React + Redux based Web Application to get information about various Movies and 
   
   - Best Supported Browser - Chrome
   
-Screenshots : 
+# Screenshots : 
 
     -  HomePage
   
