@@ -12,11 +12,11 @@ React + Redux based Web Application to get information about various Movies and 
   
 Screenshots : 
 
-  -  HomePage
+    -  HomePage
   
   ![Homepage](Screenshots/HomePage.PNG)
 
-  -  Search Results
+    -  Search Results
   
   ![Results](Screenshots/Search_Results.PNG)
   
